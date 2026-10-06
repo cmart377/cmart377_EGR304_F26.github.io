@@ -15,7 +15,7 @@ Things to mention are:
 * Power source
 * ...
 
-To get some initial formatting help, one can view ["here"](docs/01-Block-Diagram/Individual Block Diagram.drawio.png) some basic techniques.
+To get some initial formatting help, one can view ["here"](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/01-Block-Diagram/Individual%20Block%20Diagram.drawio.png?raw=true) some basic techniques.
 
 
 ## Example Block Diagram 
