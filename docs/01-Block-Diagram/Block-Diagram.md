@@ -15,7 +15,7 @@ Things to mention are:
 * Power source
 * ...
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+To get some initial formatting help, one can view ["here"](docs/01-Block-Diagram/Individual Block Diagram.drawio.png) some basic techniques.
 
 
 ## Example Block Diagram 
