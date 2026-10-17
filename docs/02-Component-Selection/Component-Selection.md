@@ -9,7 +9,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230513.png)
 
     * $1.63/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * [link to product](https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
@@ -22,7 +22,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230541.png)
 
     * $1.08/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * [Link to product](https://www.ti.com/lit/ds/symlink/lm7800.pdf?ts=1792218175071&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM7800%252Fpart-details%252FLM7805CT%252FNOPB)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
@@ -35,7 +35,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230557.png)
 
     * $1.50/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * [Link to product](https://vetco.net/products/nte960_5_volt_1a_voltage_regulator_3-pin_to220_-_nte960?utm_source=chatgpt.com)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
@@ -53,7 +53,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230608.png)
 
     * $7.20/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * [link to product](https://www.newegg.com/imbaprice-imba-12v1a-1pk/p/2RC-0264-001Y1?utm_source)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
@@ -66,7 +66,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230621.png)
 
     * $9.99/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * [Link to product](https://www.microcenter.com/product/449788/avue-dc12v-1a-power-adapter?utm_source)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
@@ -79,7 +79,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230634.png)
 
     * $27.99/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * [Link to product](https://www.sweetwater.com/store/detail/1Spot9v--truetone-1-spot-slim-9v-dc-adapter)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
@@ -98,7 +98,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230651.png)
 
     * $0.42/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * [link to product](https://www.microchip.com/en-us/product/mcp9700?utm_source)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
@@ -111,7 +111,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230702.png)
 
     * $2.83/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * [Link to product](https://www.analog.com/en/products/DS18B20.html?utm_source)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
@@ -124,7 +124,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230715.png)
 
     * $5.95/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * [Link to product](https://cdn.robotshop.com/media/s/spa/rb-spa-882/pdf/digital-temperature-sensor-tmp102-datasheet.pdf)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
@@ -143,7 +143,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230728.png)
 
     * $0.32/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * [link to product](https://www.ti.com/lit/ds/symlink/tps22919.pdf?ts=1792216512151&ref_url=https%253A%252F%252Fwww.google.com%252F)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
@@ -156,7 +156,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230739.png)
 
     * $0.16/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * [Link to product](https://www.ti.com/lit/ds/symlink/tps22917.pdf?ts=1792159789155&ref_url=https%253A%252F%252Fwww.google.com%252F)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
@@ -169,7 +169,7 @@ title: Component Selection
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230754.png)
 
     * $0.08/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * [Link to product](https://www.ti.com/lit/ds/symlink/tps22991.pdf?ts=1792190270993)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
