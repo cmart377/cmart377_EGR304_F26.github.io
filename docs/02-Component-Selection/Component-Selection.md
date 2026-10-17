@@ -135,3 +135,47 @@ title: Component Selection
 **Choice:** Option 1: MCP9700 Temperature Sensor 
 
 **Rationale:** The MCP9700 was selected because its analog output can be read directly by the PIC's ADC. This simplifies temperature monitoring and reduces interface complexity. It operates within a voltage range suitable for many low-voltage circuits. An additional threshold circuit is needed to trigger an automatic thermal shutdown.
+
+**Power Switching Components**
+
+1. Texas Instruments TPS22919 Power Switch
+
+    ![](image1.png)
+
+    * $0.32/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Supports 1.6–5.5 V input and up to 1.5 A continuous current. |Small SC-70 package is more difficult to solder than a through-hole part. |
+    | Includes thermal shutdown and short-circuit protection. | Requires a control signal to enable or disable the output. |
+    | Provides controlled power-up and output discharge. | Its built-in thermal shutdown is not a substitute for a separately specified board-temperature threshold. |
+
+1. Texas Instruments TPS22917 Power Switch 
+
+    ![](image3.png)
+
+    * $0.16/each
+    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+
+    | Pros                                                     | Cons                |
+    | ---------------------------------------------------------| ------------------- |
+    | Offers a compact integrated power-switching solution.  | Confirm the exact current rating and operating voltage for the selected package.|
+    | Has controlled turn-on and output-discharge functionality. | Small package may be challenging to assemble.|
+    | Can reduce the number of discrete switching components.  | Requires additional temperature-sensing and control circuitry for a defined PCB cutoff temperature.|
+
+1. Texas Instruments TPS22991 Power Switch
+
+    ![](image3.png)
+
+    * $0.08/each
+    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+
+    | Pros                                                     | Cons                |
+    | ---------------------------------------------------------| ------------------- |
+    | Integrated load-switch solution. | Verify the exact input-voltage and current specifications before selection.|
+    | Includes controlled turn-on and output-discharge features. | Small surface-mount package requires careful PCB footprint and assembly. |
+    | Offers another commercial option for comparison with the TPS22919. | Does not replace a separately designed temperature-threshold circuit. |
+**Choice:** Option 3: Texas Instruments TPS22991 Power Switch
+
+**Rationale:** The TPS22919 was selected because it provides compact electronic power control. Its integrated design can reduce the number of separate components on the PCB. It also includes thermal shutdown and short-circuit protection for the switch itself. An external temperature-threshold circuit is still needed to disconnect the protected power rail when the PCB overheats.
