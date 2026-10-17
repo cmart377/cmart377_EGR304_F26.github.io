@@ -140,7 +140,7 @@ title: Component Selection
 
 1. Texas Instruments TPS22919 Power Switch
 
-    ![]([image1.png](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230728.png))
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230728.png)
 
     * $0.32/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
