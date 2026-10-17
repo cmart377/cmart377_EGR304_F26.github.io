@@ -6,8 +6,7 @@ title: Component Selection
 
 1. Texas Instruments UA7805CKCS Voltage Regulator 
 
-    ![](<img width="551" height="310" alt="image" src="https://github.com/user-attachments/assets/4b73659d-7962-4eac-bbe3-61f84feb3a6b" />
-)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230513.png?raw=true)
 
     * $1.63/each
     * [link to product](https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf)
