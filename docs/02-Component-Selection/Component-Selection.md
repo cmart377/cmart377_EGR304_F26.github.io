@@ -4,7 +4,7 @@ title: Component Selection
 
 **Voltage Regulator**
 
-1. Texas Instruments UA7805CKCS
+1. Texas Instruments UA7805CKCS Voltage Regulator 
 
     ![](image1.png)
 
@@ -17,7 +17,7 @@ title: Component Selection
     | Fixed 5 V output requires no ouput voltage adjustment | Confirm the exact part's datasheet, package, and availability before ordering |
     | Through hole versions are suitable for prototyping | May cost more than other 7805 compatible options |
 
-1. STMicroelectronics L7805CV
+1. STMicroelectronics L7805CV Voltage Regulator 
 
     ![](image3.png)
 
@@ -30,6 +30,108 @@ title: Component Selection
     | Through-hole TO-220 package is relatively easy to solder | Excess input voltage is dissipated as heat. |
     | Includes overtemperature and short-circuit protection    | The 1.5 A rating does not guarantee that it can deliver 1.5 A continuously without appropriate thermal management.                     |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+1. NTE960 Voltage Regulator 
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+    ![](image3.png)
+
+    * $1.50/each
+    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+
+    | Pros                                                     | Cons                |
+    | ---------------------------------------------------------| ------------------- |
+    | Fixed 5 V output         | Lower current rating than proposed 1.5 A regulator|
+    | Through hole package is convenient for assembly | Must verify that the actual system current is within its rating. |
+    |  Its 1 A output rating may be sufficient for a modest logic board | Still require thermal analysis |
+**Choice:** Option 2: STMicroelectronics L7805CV Voltage Regulator
+
+**Rationale:** The L7805CV was selected because it provides a fixed 5 V output. Its simple design makes it easy to integrate into the PCB. Its through-hole package also makes assembly easier. However, its current capacity and heat dissipation must be verified before final selection.
+
+**External Power Supply**
+
+1. 12 V, 1 A DC Wall Adapter External Power Supply
+
+    ![](image1.png)
+
+    * $7.20/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Supplies up to 1 A at 12 V | A linear 5 V regulator will dissipate substantial heat dropping 12 V to 5 V |
+    | Convenient for a stationary prototype | The adapter's connector and polarity  must match your board |
+    | Provides more input voltage than a 5 V rail requires | Its current capacity must be checked against the calculated system load |
+
+1. Avue 12V, 1 A Adapter External Power Supply
+
+    ![](image3.png)
+
+    * $9.99/each
+    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+
+    | Pros                                                     | Cons                |
+    | ---------------------------------------------------------| ------------------- |
+    | A readily purchasable wall adapter. | Same linear regulator heat concern as option 1. |
+    | Rated for 12 W of output power. | The connector and polarity must be verified. |
+    | Suitable for evaluating a stationary prototype if the connector and electrical specifications match.| Must have sufficient current remaining after accounting for all loads. |
+
+1. Truetone 1 SPOT 9 V Adapter External Power Supply 
+
+    ![](image3.png)
+
+    * $27.99/each
+    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+
+    | Pros                                                     | Cons                |
+    | ---------------------------------------------------------| ------------------- |
+    | Supplies 9 V DC and is intended for continuous equipment power. | More expensive than the other candidates. |
+    | Lower input voltage than 12 V reduces the regulator's voltage drop and heat. | Its center-negative connector may not match your board. |
+    | Listed output current is 1.7 A. | A linear regulator will still dissipate heat, and actual current demand must be calculated. |
+   
+**Choice:** Option 3: Truetone 1 SPOT 9 V Adapter External Power Supply 
+
+**Rationale:** The 9 V adapter was selected because it provides a practical power source for a stationary prototype. It produces less heat than a 12 V adapter in a linear regulator. It can provide consistent power without requiring a battery. Its polarity, connector, and current capacity must be verified before use.
+
+**PCB Temperature Sensor**
+
+1. Microchip MCP9700 Temperature Sensor
+
+    ![](image1.png)
+
+    * $0.42/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Analog output can be read by the PIC's ADC. | The PIC must convert and interpret the analog voltage. |
+    | Operates from a 2.3–5.5 V supply. | Measurement accuracy must be considered when choosing the cutoff temperature. |
+    | Temperature range is −40°C to 150°C.| Additional circuitry is needed if the sensor must directly trigger a hardware cutoff. |
+
+1. Analog Devices DS18B20 Temperature Sensor
+
+    ![](image3.png)
+
+    * $2.83/each
+    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+
+    | Pros                                                     | Cons                |
+    | ---------------------------------------------------------| ------------------- |
+    | Digital 1-Wire interface uses only one data pin.| Requires firmware to read and interpret the digital data. |
+    | Typical accuracy is ±0.5°C from −10°C to +85°C. | Uses a digital interface rather than a direct analog ADC input. |
+    | Supports programmable resolution and configurable temperature alarms.| A separate power-disconnection mechanism is still needed for an independent failsafe. |
+
+1. TMP102 Temperature Sensor
+
+    ![](image3.png)
+
+    * $5.95/each
+    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+
+    | Pros                                                     | Cons                |
+    | ---------------------------------------------------------| ------------------- |
+    | Supplies 9 V DC and is intended for continuous equipment power. | More expensive than the other candidates. |
+    | Lower input voltage than 12 V reduces the regulator's voltage drop and heat. | Its center-negative connector may not match your board. |
+    | Listed output current is 1.7 A. | A linear regulator will still dissipate heat, and actual current demand must be calculated. |
+   
+**Choice:** Option 1: MCP9700 Temperature Sensor 
+
+**Rationale:** The MCP9700 was selected because its analog output can be read directly by the PIC's ADC. This simplifies temperature monitoring and reduces interface complexity. It operates within a voltage range suitable for many low-voltage circuits. An additional threshold circuit is needed to trigger an automatic thermal shutdown.
