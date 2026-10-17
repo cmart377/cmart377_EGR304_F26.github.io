@@ -6,7 +6,7 @@ title: Component Selection
 
 1. Texas Instruments UA7805CKCS Voltage Regulator 
 
-    ![](image1.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230513.png)
 
     * $1.63/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -19,7 +19,7 @@ title: Component Selection
 
 1. STMicroelectronics L7805CV Voltage Regulator 
 
-    ![](image3.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230541.png)
 
     * $1.08/each
     * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
@@ -32,7 +32,7 @@ title: Component Selection
 
 1. NTE960 Voltage Regulator 
 
-    ![](image3.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230557.png)
 
     * $1.50/each
     * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
@@ -50,7 +50,7 @@ title: Component Selection
 
 1. 12 V, 1 A DC Wall Adapter External Power Supply
 
-    ![](image1.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230608.png)
 
     * $7.20/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -63,7 +63,7 @@ title: Component Selection
 
 1. Avue 12V, 1 A Adapter External Power Supply
 
-    ![](image3.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230621.png)
 
     * $9.99/each
     * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
@@ -76,7 +76,7 @@ title: Component Selection
 
 1. Truetone 1 SPOT 9 V Adapter External Power Supply 
 
-    ![](image3.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230634.png)
 
     * $27.99/each
     * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
@@ -95,7 +95,7 @@ title: Component Selection
 
 1. Microchip MCP9700 Temperature Sensor
 
-    ![](image1.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230651.png)
 
     * $0.42/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -108,7 +108,7 @@ title: Component Selection
 
 1. Analog Devices DS18B20 Temperature Sensor
 
-    ![](image3.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230702.png)
 
     * $2.83/each
     * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
@@ -121,7 +121,7 @@ title: Component Selection
 
 1. TMP102 Temperature Sensor
 
-    ![](image3.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230715.png)
 
     * $5.95/each
     * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
@@ -140,7 +140,7 @@ title: Component Selection
 
 1. Texas Instruments TPS22919 Power Switch
 
-    ![](image1.png)
+    ![]([image1.png](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230728.png))
 
     * $0.32/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -153,7 +153,7 @@ title: Component Selection
 
 1. Texas Instruments TPS22917 Power Switch 
 
-    ![](image3.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230739.png)
 
     * $0.16/each
     * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
@@ -166,7 +166,7 @@ title: Component Selection
 
 1. Texas Instruments TPS22991 Power Switch
 
-    ![](image3.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230754.png)
 
     * $0.08/each
     * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
