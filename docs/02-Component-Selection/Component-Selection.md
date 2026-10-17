@@ -19,7 +19,7 @@ title: Component Selection
 
 1. STMicroelectronics L7805CV Voltage Regulator 
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230541.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230541.png?raw=true)
 
     * $1.08/each
     * [Link to product](https://www.ti.com/lit/ds/symlink/lm7800.pdf?ts=1792218175071&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM7800%252Fpart-details%252FLM7805CT%252FNOPB)
@@ -32,10 +32,10 @@ title: Component Selection
 
 1. NTE960 Voltage Regulator 
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230557.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230557.png?raw=true)
 
     * $1.50/each
-    * [Link to product](https://vetco.net/products/nte960_5_volt_1a_voltage_regulator_3-pin_to220_-_nte960?utm_source=chatgpt.com)
+    * [Link to product](https://vetco.net/products/nte960_5_volt_1a_voltage_regulator_3-pin_to220_-_nte960?utm_source)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
@@ -50,7 +50,7 @@ title: Component Selection
 
 1. 12 V, 1 A DC Wall Adapter External Power Supply
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230608.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230608.png?raw=true)
 
     * $7.20/each
     * [link to product](https://www.newegg.com/imbaprice-imba-12v1a-1pk/p/2RC-0264-001Y1?utm_source)
@@ -63,7 +63,7 @@ title: Component Selection
 
 1. Avue 12V, 1 A Adapter External Power Supply
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230621.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230621.png?raw=true)
 
     * $9.99/each
     * [Link to product](https://www.microcenter.com/product/449788/avue-dc12v-1a-power-adapter?utm_source)
@@ -76,7 +76,7 @@ title: Component Selection
 
 1. Truetone 1 SPOT 9 V Adapter External Power Supply 
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230634.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230634.png?raw=true)
 
     * $27.99/each
     * [Link to product](https://www.sweetwater.com/store/detail/1Spot9v--truetone-1-spot-slim-9v-dc-adapter)
@@ -95,7 +95,7 @@ title: Component Selection
 
 1. Microchip MCP9700 Temperature Sensor
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230651.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230651.png?raw=true)
 
     * $0.42/each
     * [link to product](https://www.microchip.com/en-us/product/mcp9700?utm_source)
@@ -108,7 +108,7 @@ title: Component Selection
 
 1. Analog Devices DS18B20 Temperature Sensor
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230702.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230702.png?raw=true)
 
     * $2.83/each
     * [Link to product](https://www.analog.com/en/products/DS18B20.html?utm_source)
@@ -121,7 +121,7 @@ title: Component Selection
 
 1. TMP102 Temperature Sensor
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230715.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230715.png?raw=true)
 
     * $5.95/each
     * [Link to product](https://cdn.robotshop.com/media/s/spa/rb-spa-882/pdf/digital-temperature-sensor-tmp102-datasheet.pdf)
@@ -140,7 +140,7 @@ title: Component Selection
 
 1. Texas Instruments TPS22919 Power Switch
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230728.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230728.png?raw=true)
 
     * $0.32/each
     * [link to product](https://www.ti.com/lit/ds/symlink/tps22919.pdf?ts=1792216512151&ref_url=https%253A%252F%252Fwww.google.com%252F)
@@ -153,7 +153,7 @@ title: Component Selection
 
 1. Texas Instruments TPS22917 Power Switch 
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230739.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230739.png?raw=true)
 
     * $0.16/each
     * [Link to product](https://www.ti.com/lit/ds/symlink/tps22917.pdf?ts=1792159789155&ref_url=https%253A%252F%252Fwww.google.com%252F)
@@ -166,7 +166,7 @@ title: Component Selection
 
 1. Texas Instruments TPS22991 Power Switch
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230754.png)
+    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230754.png?raw=true)
 
     * $0.08/each
     * [Link to product](https://www.ti.com/lit/ds/symlink/tps22991.pdf?ts=1792190270993)
