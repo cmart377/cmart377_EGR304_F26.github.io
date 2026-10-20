@@ -8,7 +8,7 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 
 ![schematic](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/04-Schematic/Screenshot%202026-10-19%20211959.png?raw=true){style width:"210" height:"297;"}
-**Figure ##:** Showing a example schematic.
+**Figure 1:** Should be an image there showing my schematic.
 
 
 ## Resouces
