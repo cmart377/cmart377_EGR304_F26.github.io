@@ -7,20 +7,20 @@ tags:
 <center>
 <font size= "6">Christian Martinez Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Heart Rate Monitor</font><br>
 for<br>
 <font size= "5"> Team 204 </font><br>
 
-**Submission: 09/01/2026**
+**Submission: 10/26/2026**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* The purpose of this data sheet is to understand the thought process and the inner workings of the PCB board that connects all the other components in the Heart Rate Monitor project. 
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
+* The purpose of my PCB is to be the bridge between all other boards. My board will obtain the raw data from one of the boards, compile and simplify it, then send it out to the other two boards. Since my board will be connected to all others, a separate yet integrated temperature-sensing circuit has been added to indicate when the board gets too hot.
 * Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
 
 
