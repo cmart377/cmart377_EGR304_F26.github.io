@@ -30,5 +30,3 @@ for<br>
 * To review the bill of materials behind the chosen materials of the board, you can review it in the ["BOM"](https://cmart377.github.io/cmart377_EGR304_F26.github.io/03-BOM/BOM/) section of the datasheet.
 * To review the schematic behind the design of the board, you can review it in the ["Schematic"](https://cmart377.github.io/cmart377_EGR304_F26.github.io/04-Schematic/schematic/) section of the datasheet.
 * To review the power budget, you can review it in the ["Power Budget"](https://cmart377.github.io/cmart377_EGR304_F26.github.io/04-Schematic/schematic/) section of the datasheet.
-
-For all the sections
