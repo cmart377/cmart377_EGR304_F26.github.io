@@ -19,7 +19,7 @@ title: Component Selection
 
 1. STMicroelectronics L7805BV Voltage Regulator 
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230541.png?raw=true)
+    ![](L7805ABV-DG.png)
 
     * $1.08/each
     * [Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV-DG/3945936)
@@ -42,9 +42,9 @@ title: Component Selection
     | Fixed 5 V output         | Lower current rating than proposed 1.5 A regulator|
     | Through hole package is convenient for assembly | Must verify that the actual system current is within its rating. |
     |  Its 1 A output rating may be sufficient for a modest logic board | Still require thermal analysis |
-**Choice:** Option 2: STMicroelectronics L7805CV Voltage Regulator
+**Choice:** Option 2: STMicroelectronics L7805BV Voltage Regulator
 
-**Rationale:** The L7805CV was selected because it provides a fixed 5 V output. Its simple design makes it easy to integrate into the PCB. Its through-hole package also makes assembly easier. However, its current capacity and heat dissipation must be verified before final selection.
+**Rationale:** The L7805BV was selected for its fixed 5 V output. Its simple design makes it easy to integrate into the PCB. Its through-hole package also makes assembly easier, and I already own the component. 
 
 **External Power Supply**
 
