@@ -58,7 +58,7 @@ title: Component Selection
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Supplies up to 1 A at 12 V | A linear 5 V regulator will dissipate substantial heat dropping 12 V to 5 V |
-    | Convenient for a stationary prototype | The adapter's connector and polarity  must match your board |
+    | Convenient for a stationary prototype | The adapter's connector and polarity in the datasheet are untrustworthy according to some users. |
     | Provides more input voltage than a 5 V rail requires | Its current capacity must be checked against the calculated system load |
 
 1. Avue 12V, 1 A Adapter External Power Supply
@@ -89,7 +89,7 @@ title: Component Selection
    
 **Choice:** Option 3: Triad Magnetics AC/DC WALL MOUNT ADAPTER 9V 12W External Power Supply 
 
-**Rationale:** The 9 V adapter was selected because it provides a practical power source for a stationary prototype. It produces less heat than a 12 V adapter in a linear regulator. It can provide consistent power without requiring a battery. Its polarity and connector must be tested first before it gets integrated into the pcb. 
+**Rationale:** The 9 V adapter was selected because it provides a practical power source for a stationary prototype. It produces less heat than a 12 V adapter with a linear regulator. It can provide consistent power without requiring a battery. Its polarity and connector must be tested first before it gets integrated into the PCB. 
 
 **PCB Temperature Sensor**
 
