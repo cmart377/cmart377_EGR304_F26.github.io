@@ -74,22 +74,22 @@ title: Component Selection
     | Rated for 12 W of output power. | The connector and polarity must be verified. |
     | Suitable for evaluating a stationary prototype if the connector and electrical specifications match.| Must have sufficient current remaining after accounting for all loads. |
 
-1. Truetone 1 SPOT 9 V Adapter External Power Supply 
+1. Triad Magnetics AC/DC WALL MOUNT ADAPTER 9V 12W External Power Supply 
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230634.png?raw=true)
+    ![](WSU090-1300-R.png)
 
-    * $27.99/each
-    * [Link to product](https://www.sweetwater.com/store/detail/1Spot9v--truetone-1-spot-slim-9v-dc-adapter)
+    * $7.99/each
+    * [Link to product](https://www.digikey.com/en/products/detail/triad-magnetics/WSU090-1300-R/3094978)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
-    | Supplies 9 V DC and is intended for continuous equipment power. | More expensive than the other candidates. |
-    | Lower input voltage than 12 V reduces the regulator's voltage drop and heat. | Its center-negative connector may not match your board. |
-    | Listed output current is 1.7 A. | A linear regulator will still dissipate heat, and actual current demand must be calculated. |
+    | Supplies 9 V DC and is intended for continuous equipment power. | The jack's inner diameter is 2.0 mm, while the adapter plug is listed as 2.1 mm. |
+    | Lower input voltage than 12 V reduces the regulator's voltage drop and heat. | Its center-negative connector may not match the barrel jack. |
+    | Listed output current is 1.3 A. | A linear regulator will still dissipate heat, and actual current demand must be calculated. |
    
-**Choice:** Option 3: Truetone 1 SPOT 9 V Adapter External Power Supply 
+**Choice:** Option 3: Triad Magnetics AC/DC WALL MOUNT ADAPTER 9V 12W External Power Supply 
 
-**Rationale:** The 9 V adapter was selected because it provides a practical power source for a stationary prototype. It produces less heat than a 12 V adapter in a linear regulator. It can provide consistent power without requiring a battery. Its polarity, connector, and current capacity must be verified before use.
+**Rationale:** The 9 V adapter was selected because it provides a practical power source for a stationary prototype. It produces less heat than a 12 V adapter in a linear regulator. It can provide consistent power without requiring a battery. Its polarity and connector must be tested first before it gets integrated into the pcb. 
 
 **PCB Temperature Sensor**
 
