@@ -14,14 +14,14 @@ title: Component Selection
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Established 7805 style regulator design | Linear regulator heat losses still apply |
-    | Fixed 5 V output requires no ouput voltage adjustment | Confirm the exact part's datasheet, package, and availability before ordering |
-    | Through hole versions are suitable for prototyping | May cost more than other 7805 compatible options |
+    | Fixed 5 V output requires no output voltage adjustment | Availability seems scarce |
+    | Through hole versions are suitable for prototyping | May cost more than other compatible options |
 
 1. STMicroelectronics L7805BV Voltage Regulator 
 
     ![](L7805ABV-DG.png)
 
-    * $1.08/each
+    * $1.53/each
     * [Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV-DG/3945936)
 
     | Pros                                                     | Cons                |
@@ -39,9 +39,9 @@ title: Component Selection
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
-    | Fixed 5 V output         | Lower current rating than proposed 1.5 A regulator|
-    | Through hole package is convenient for assembly | Must verify that the actual system current is within its rating. |
-    |  Its 1 A output rating may be sufficient for a modest logic board | Still require thermal analysis |
+    | Fixed 5 V output         | May not deliver consistent 1 A according to reviews|
+    | Through-hole package is convenient for assembly | Releases more heat than other similar components |
+    |  Its 1 A output rating may be sufficient for a modest logic board | Better choices for a similar price |
 **Choice:** Option 2: STMicroelectronics L7805BV Voltage Regulator
 
 **Rationale:** The L7805BV was selected for its fixed 5 V output. Its simple design makes it easy to integrate into the PCB. Its through-hole package also makes assembly easier, and I already own the component. 
