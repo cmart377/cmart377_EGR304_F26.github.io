@@ -17,18 +17,18 @@ title: Component Selection
     | Fixed 5 V output requires no ouput voltage adjustment | Confirm the exact part's datasheet, package, and availability before ordering |
     | Through hole versions are suitable for prototyping | May cost more than other 7805 compatible options |
 
-1. STMicroelectronics L7805CV Voltage Regulator 
+1. STMicroelectronics L7805BV Voltage Regulator 
 
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230541.png?raw=true)
 
     * $1.08/each
-    * [Link to product](https://www.ti.com/lit/ds/symlink/lm7800.pdf?ts=1792218175071&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM7800%252Fpart-details%252FLM7805CT%252FNOPB)
+    * [Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV-DG/3945936)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
-    | Fixed 5 V output simplifies circuit design               | Needs an input voltage above 5 V, with sufficient headroom.|
+    | Provides fixed 5 V suitable for Curiosity Nano and MCP6004 | Needs an input voltage above 5 V, with sufficient headroom.|
     | Through-hole TO-220 package is relatively easy to solder | Excess input voltage is dissipated as heat. |
-    | Includes overtemperature and short-circuit protection    | The 1.5 A rating does not guarantee that it can deliver 1.5 A continuously without appropriate thermal management.                     |
+    | Includes overtemperature and short-circuit protection    | The 1.5 A rating does not guarantee that it can deliver 1.5 A continuously without appropriate thermal management. |
 
 1. NTE960 Voltage Regulator 
 
