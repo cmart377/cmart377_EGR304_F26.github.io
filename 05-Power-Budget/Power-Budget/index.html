@@ -854,15 +854,17 @@
   <h1>Power Budget</h1>
 
 <h2 id="overview">Overview</h2>
-<p>Write a overview of what you did and why you did a Power Budget.</p>
-<blockquote>
-<p>Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.</p>
-</blockquote>
-<p><img alt="budget1" height:_300_="height:&quot;300;&quot;" src="../budgetPg1.png" style="style" width:_350_="width:&quot;350&quot;" /></p>
-<p><img alt="budget2" height:_300_="height:&quot;300;&quot;" src="../budgetPg2.png" style="style" width:_350_="width:&quot;350&quot;" /></p>
-<p><img alt="budget3" height:_300_="height:&quot;300;&quot;" src="../budgetPg3.png" style="style" width:_350_="width:&quot;350&quot;" /></p>
+<p>My power budget estimates the total current required for my heart rate monitor PCB, including the PIC18F57Q43 Curiosity Nano board, the MCP6004 op-amp, the thermistor circuit, and the red LED. The current consumption is approximately 104.25 mA based on the current estimates, but this is a preliminary total because the blue LED and any external loads have not yet been included. It also helps verify that the 9V input and L7805 voltage regulator can provide the required 5V power while accounting for the regulator’s heat dissipation.</p>
+<p><img alt="budget1" src="../PreliminaryPowerBudget.png" /></p>
 <h2 id="conclusions">Conclusions</h2>
-<p>From the prepare Power Budget, .....</p>
+<ul>
+<li>The 9 V input connects to the L7805 input; components on its output use the regulated 5 V rail.</li>
+<li>The Curiosity Nano board's total current includes the MCU and onboard debugger circuitry.</li>
+<li>The blue LED current cannot be calculated from the supplied schematic/BOM because a series resistor is not shown.</li>
+<li>The total load depends on the actual Nano board current and any peripherals connected to the headers.</li>
+<li>The L7805 dissipates the input/output voltage difference as heat; thermal behavior depends on mounting and PCB conditions.</li>
+<li>The fuse is listed as 500 mA; its DC voltage and interrupt ratings are not specified in the provided BOM. </li>
+</ul>
 <h2 id="resouces">Resouces</h2>
 <p>The power budget as a PDF download is available <a href="../PowerBudgetExample.pdf"><em>here</em></a>, and a Microsoft Excel Sheet <a href="../PowerBudgetExample.xlsx"><em>here</em></a>.</p>
 
