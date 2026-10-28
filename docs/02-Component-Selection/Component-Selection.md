@@ -125,31 +125,18 @@ title: Component Selection
 
 **Power Jack**
 
-1. Texas Instruments TPS22919 Power Switch
+1. Texas Instruments PJ-002AH Power Jack 
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230728.png?raw=true)
+    ![](PJ-002AH.png)
 
-    * $0.32/each
-    * [link to product](https://www.ti.com/lit/ds/symlink/tps22919.pdf?ts=1792216512151&ref_url=https%253A%252F%252Fwww.google.com%252F)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Supports 1.6–5.5 V input and up to 1.5 A continuous current. |Small SC-70 package is more difficult to solder than a through-hole part. |
-    | Includes thermal shutdown and short-circuit protection. | Requires a control signal to enable or disable the output. |
-    | Provides controlled power-up and output discharge. | Its built-in thermal shutdown is not a substitute for a separately specified board-temperature threshold. |
-
-1. Texas Instruments TPS22917 Power Switch 
-
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230739.png?raw=true)
-
-    * $0.16/each
-    * [Link to product](https://www.ti.com/lit/ds/symlink/tps22917.pdf?ts=1792159789155&ref_url=https%253A%252F%252Fwww.google.com%252F)
+    * $0.81/each
+    * [Link to product](https://www.sameskydevices.com/product/resource/pj-002ah.pdf)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
-    | Offers a compact integrated power-switching solution.  | Confirm the exact current rating and operating voltage for the selected package.|
-    | Has controlled turn-on and output-discharge functionality. | Small package may be challenging to assemble.|
-    | Can reduce the number of discrete switching components.  | Requires additional temperature-sensing and control circuitry for a defined PCB cutoff temperature.|
+    | Designed for standard 5.5 x 2.1 mm DC plugs. | Limited Insertion life. |
+    | Through-hole terminals | Requires the jack to be positioned at the PCB edge. |
+    | Solderable pins make PCB connection easy | The jack itself does not ensure center-positive wiring.|
 
 1. Texas Instruments TPS22991 Power Switch
 
