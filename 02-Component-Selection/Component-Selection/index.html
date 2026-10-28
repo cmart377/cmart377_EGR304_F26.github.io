@@ -984,11 +984,11 @@
 </table>
 </li>
 <li>
-<p>Analog Devices DS18B20 Temperature Sensor</p>
-<p><img alt="" src="https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230702.png?raw=true" /></p>
+<p>Texas Instruments LM324N Op amp</p>
+<p><img alt="" src="../LM324N.png" /></p>
 <ul>
-<li>$2.83/each</li>
-<li><a href="https://www.analog.com/en/products/DS18B20.html?utm_source">Link to product</a></li>
+<li>$0.58/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM324N/277627">Link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -999,54 +999,24 @@
 </thead>
 <tbody>
 <tr>
-<td>Digital 1-Wire interface uses only one data pin.</td>
-<td>Requires firmware to read and interpret the digital data.</td>
+<td>Works with 5V supply</td>
+<td>Output does not reach the positive supply rail.</td>
 </tr>
 <tr>
-<td>Typical accuracy is ±0.5°C from −10°C to +85°C.</td>
-<td>Uses a digital interface rather than a direct analog ADC input.</td>
+<td>Easy to socket and replace</td>
+<td>Higher supply current than the MCP6004.</td>
 </tr>
 <tr>
-<td>Supports programmable resolution and configurable temperature alarms.</td>
-<td>A separate power-disconnection mechanism is still needed for an independent failsafe.</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>TMP102 Temperature Sensor</p>
-<p><img alt="" src="https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230715.png?raw=true" /></p>
-<ul>
-<li>$5.95/each</li>
-<li><a href="https://cdn.robotshop.com/media/s/spa/rb-spa-882/pdf/digital-temperature-sensor-tmp102-datasheet.pdf">Link to product</a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Supplies 9 V DC and is intended for continuous equipment power.</td>
-<td>More expensive than the other candidates.</td>
-</tr>
-<tr>
-<td>Lower input voltage than 12 V reduces the regulator's voltage drop and heat.</td>
-<td>Its center-negative connector may not match your board.</td>
-</tr>
-<tr>
-<td>Listed output current is 1.7 A.</td>
-<td>A linear regulator will still dissipate heat, and actual current demand must be calculated.</td>
+<td>Four amplifier sections in one chip</td>
+<td>Not a dedicated comparator; switching behavior needs testing.</td>
 </tr>
 </tbody>
 </table>
 </li>
 </ol>
-<p><strong>Choice:</strong> Option 1: MCP9700 Temperature Sensor </p>
-<p><strong>Rationale:</strong> The MCP9700 was selected because its analog output can be read directly by the PIC's ADC. This simplifies temperature monitoring and reduces interface complexity. It operates within a voltage range suitable for many low-voltage circuits. An additional threshold circuit is needed to trigger an automatic thermal shutdown.</p>
-<p><strong>Power Switching Components</strong></p>
+<p><strong>Choice:</strong> Option 1:  Microchip Technology MCP6004-I/P Op Amp</p>
+<p><strong>Rationale:</strong>  Microchip Technology MCP6004-I/P Op Amp will be chosen due to the component already being in my possession. MCP6004 also attaches well to the PCB's 5V rail, and I already know the op-amp works. </p>
+<p><strong>Power Jack</strong></p>
 <ol>
 <li>
 <p>Texas Instruments TPS22919 Power Switch</p>
