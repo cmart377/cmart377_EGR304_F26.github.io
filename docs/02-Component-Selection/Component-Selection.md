@@ -95,7 +95,7 @@ title: Component Selection
 
 1. Microchip Technology MCP6004-I/P Op Amp
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230651.png?raw=true)
+    ![](MCP6004.png)
 
     * $0.60/each
     * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?gclsrc=aw.ds&gad_source=1&gad_campaignid=20790518593&gbraid=0AAAAADrbLliJItBqguLw7XKry3y1w794w&gclid=CjwKCAjwl4HXBhAjEiwAHlpWhFUJ2dQqAaFPD_3AsAtwFl_I4R_VA-0ROPuMHdSRvImSbvAWkVXC_hoCsxIQAvD_BwE)
