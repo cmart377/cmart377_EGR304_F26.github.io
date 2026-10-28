@@ -85,7 +85,7 @@ title: Component Selection
     | ---------------------------------------------------------| ------------------- |
     | Supplies 9 V DC and is intended for continuous equipment power. | The jack's inner diameter is 2.0 mm, while the adapter plug is listed as 2.1 mm. |
     | Lower input voltage than 12 V reduces the regulator's voltage drop and heat. | Its center-negative connector may not match the barrel jack. |
-    | Listed output current is 1.3 A. | A linear regulator will still dissipate heat, and actual current demand must be calculated. |
+    | Listed output current is 1.3 A. | A linear regulator will still dissipate heat, and the actual current demand must be calculated. |
    
 **Choice:** Option 1:  WALL ADAPTER 9VDC 1A, 5.5X2.1MM External Power Supply 
 
@@ -138,18 +138,19 @@ title: Component Selection
     | Through-hole terminals | Requires the jack to be positioned at the PCB edge. |
     | Solderable pins make PCB connection easy | The jack itself does not ensure center-positive wiring.|
 
-1. Texas Instruments TPS22991 Power Switch
+1. Texas Instruments PJ-102AH Power Jack
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230754.png?raw=true)
+    ![](PJ-102AH.png)
 
-    * $0.08/each
-    * [Link to product](https://www.ti.com/lit/ds/symlink/tps22991.pdf?ts=1792190270993)
+    * $0.83/each
+    * [Link to product](https://www.sameskydevices.com/product/resource/pj-102ah.pdf)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
-    | Integrated load-switch solution. | Verify the exact input-voltage and current specifications before selection.|
-    | Includes controlled turn-on and output-discharge features. | Small surface-mount package requires careful PCB footprint and assembly. |
-    | Offers another commercial option for comparison with the TPS22919. | Does not replace a separately designed temperature-threshold circuit. |
-**Choice:** Option 3: Texas Instruments TPS22991 Power Switch
+    | Comfortably supports 5A | Its 2.0 mm center pin size may not fit a 2.1 mm. |
+    | Already in possession.| Requires careful placement on PCB edge. |
+    | Has a normally closed internal switch contact. | Polarity is not enforced. |
+   
+**Choice:** Option 1:  Texas Instruments PJ-102AH Power Jack 
 
-**Rationale:** The TPS22919 was selected because it provides compact electronic power control. Its integrated design can reduce the number of separate components on the PCB. It also includes thermal shutdown and short-circuit protection for the switch itself. An external temperature-threshold circuit is still needed to disconnect the protected power rail when the PCB overheats.
+**Rationale:** Texas Instruments PJ-102AH Power Jack was chosen because it is already in my possession and may work with my backup wall power adapter. If the selected power jack does not work, I will order the other one as a backup to ensure a component malfunction does not play a bigger role in the project delay. 
