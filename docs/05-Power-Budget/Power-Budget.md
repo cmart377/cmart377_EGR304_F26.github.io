@@ -17,4 +17,4 @@ My power budget estimates the total current required for my heart rate monitor P
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](SMRAZA_PCB_Power_Budget_Website_Upload.xlsx).
