@@ -48,17 +48,17 @@ title: Component Selection
 
 **External Power Supply**
 
-1. 12 V, 1 A DC Wall Adapter External Power Supply
+1. WALL ADAPTER 9VDC 1A, 5.5X2.1MM External Power Supply
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230608.png?raw=true)
+    ![](Pololu1470.png)
 
-    * $7.20/each
-    * [link to product](https://www.newegg.com/imbaprice-imba-12v1a-1pk/p/2RC-0264-001Y1?utm_source)
+    * $11.41/each
+    * [link to product](https://www.digikey.com/en/products/detail/pololu/1470/19200211)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Supplies up to 1 A at 12 V | A linear 5 V regulator will dissipate substantial heat dropping 12 V to 5 V |
-    | Convenient for a stationary prototype | The adapter's connector and polarity in the datasheet are untrustworthy according to some users. |
+    | Supplies up to 1 A at 9 V | A linear 5 V regulator will dissipate substantial heat dropping 9 V to 5 V |
+    | Convenient for a stationary prototype | The adapter's connector might not fit perfectly with the preferred jack; it might work with a backup. |
     | Provides more input voltage than a 5 V rail requires | Its current capacity must be checked against the calculated system load |
 
 1. Avue 12V, 1 A Adapter External Power Supply
@@ -87,24 +87,24 @@ title: Component Selection
     | Lower input voltage than 12 V reduces the regulator's voltage drop and heat. | Its center-negative connector may not match the barrel jack. |
     | Listed output current is 1.3 A. | A linear regulator will still dissipate heat, and actual current demand must be calculated. |
    
-**Choice:** Option 3: Triad Magnetics AC/DC WALL MOUNT ADAPTER 9V 12W External Power Supply 
+**Choice:** Option 1:  WALL ADAPTER 9VDC 1A, 5.5X2.1MM External Power Supply 
 
-**Rationale:** The 9 V adapter was selected because it provides a practical power source for a stationary prototype. It produces less heat than a 12 V adapter with a linear regulator. It can provide consistent power without requiring a battery. Its polarity and connector must be tested first before it gets integrated into the PCB. 
+**Rationale:** The 9 V adapter was selected because it provides a practical power source for a stationary prototype. It produces less heat than a 12 V adapter with a linear regulator. It can provide consistent power without requiring a battery. Its polarity and connector match one of the two potential jacks. 
 
-**PCB Temperature Sensor**
+**Op Amp**
 
-1. Microchip MCP9700 Temperature Sensor
+1. Microchip Technology MCP6004-I/P Op Amp
 
     ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230651.png?raw=true)
 
-    * $0.42/each
-    * [link to product](https://www.microchip.com/en-us/product/mcp9700?utm_source)
+    * $0.60/each
+    * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?gclsrc=aw.ds&gad_source=1&gad_campaignid=20790518593&gbraid=0AAAAADrbLliJItBqguLw7XKry3y1w794w&gclid=CjwKCAjwl4HXBhAjEiwAHlpWhFUJ2dQqAaFPD_3AsAtwFl_I4R_VA-0ROPuMHdSRvImSbvAWkVXC_hoCsxIQAvD_BwE)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Analog output can be read by the PIC's ADC. | The PIC must convert and interpret the analog voltage. |
-    | Operates from a 2.3–5.5 V supply. | Measurement accuracy must be considered when choosing the cutoff temperature. |
-    | Temperature range is −40°C to 150°C.| Additional circuitry is needed if the sensor must directly trigger a hardware cutoff. |
+    | Low power consumption: Typical supply current is about 100 µA. | Its switching behavior may be less predictable than a comparator designed for threshold detection. |
+    | Already in Possession| Its 1 MHz gain bandwidth makes it unsuitable for some high-speed applications. |
+    | Rail-to-rail input-to-output | Can be easily damaged |
 
 1. Analog Devices DS18B20 Temperature Sensor
 
