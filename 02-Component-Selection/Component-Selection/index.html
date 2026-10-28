@@ -859,11 +859,11 @@
 <p><strong>External Power Supply</strong></p>
 <ol>
 <li>
-<p>12 V, 1 A DC Wall Adapter External Power Supply</p>
-<p><img alt="" src="https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230608.png?raw=true" /></p>
+<p>WALL ADAPTER 9VDC 1A, 5.5X2.1MM External Power Supply</p>
+<p><img alt="" src="../Pololu1470.png" /></p>
 <ul>
-<li>$7.20/each</li>
-<li><a href="https://www.newegg.com/imbaprice-imba-12v1a-1pk/p/2RC-0264-001Y1?utm_source">link to product</a></li>
+<li>$11.41/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/pololu/1470/19200211">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -874,12 +874,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Supplies up to 1 A at 12 V</td>
-<td>A linear 5 V regulator will dissipate substantial heat dropping 12 V to 5 V</td>
+<td>Supplies up to 1 A at 9 V</td>
+<td>A linear 5 V regulator will dissipate substantial heat dropping 9 V to 5 V</td>
 </tr>
 <tr>
 <td>Convenient for a stationary prototype</td>
-<td>The adapter's connector and polarity in the datasheet are untrustworthy according to some users.</td>
+<td>The adapter's connector might not fit perfectly with the preferred jack; it might work with a backup.</td>
 </tr>
 <tr>
 <td>Provides more input voltage than a 5 V rail requires</td>
@@ -949,16 +949,16 @@
 </table>
 </li>
 </ol>
-<p><strong>Choice:</strong> Option 3: Triad Magnetics AC/DC WALL MOUNT ADAPTER 9V 12W External Power Supply </p>
-<p><strong>Rationale:</strong> The 9 V adapter was selected because it provides a practical power source for a stationary prototype. It produces less heat than a 12 V adapter with a linear regulator. It can provide consistent power without requiring a battery. Its polarity and connector must be tested first before it gets integrated into the PCB. </p>
-<p><strong>PCB Temperature Sensor</strong></p>
+<p><strong>Choice:</strong> Option 1:  WALL ADAPTER 9VDC 1A, 5.5X2.1MM External Power Supply </p>
+<p><strong>Rationale:</strong> The 9 V adapter was selected because it provides a practical power source for a stationary prototype. It produces less heat than a 12 V adapter with a linear regulator. It can provide consistent power without requiring a battery. Its polarity and connector match one of the two potential jacks. </p>
+<p><strong>Op Amp</strong></p>
 <ol>
 <li>
-<p>Microchip MCP9700 Temperature Sensor</p>
+<p>Microchip Technology MCP6004-I/P Op Amp</p>
 <p><img alt="" src="https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230651.png?raw=true" /></p>
 <ul>
-<li>$0.42/each</li>
-<li><a href="https://www.microchip.com/en-us/product/mcp9700?utm_source">link to product</a></li>
+<li>$0.60/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20790518593&amp;gbraid=0AAAAADrbLliJItBqguLw7XKry3y1w794w&amp;gclid=CjwKCAjwl4HXBhAjEiwAHlpWhFUJ2dQqAaFPD_3AsAtwFl_I4R_VA-0ROPuMHdSRvImSbvAWkVXC_hoCsxIQAvD_BwE">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -969,16 +969,16 @@
 </thead>
 <tbody>
 <tr>
-<td>Analog output can be read by the PIC's ADC.</td>
-<td>The PIC must convert and interpret the analog voltage.</td>
+<td>Low power consumption: Typical supply current is about 100 µA.</td>
+<td>Its switching behavior may be less predictable than a comparator designed for threshold detection.</td>
 </tr>
 <tr>
-<td>Operates from a 2.3–5.5 V supply.</td>
-<td>Measurement accuracy must be considered when choosing the cutoff temperature.</td>
+<td>Already in Possession</td>
+<td>Its 1 MHz gain bandwidth makes it unsuitable for some high-speed applications.</td>
 </tr>
 <tr>
-<td>Temperature range is −40°C to 150°C.</td>
-<td>Additional circuitry is needed if the sensor must directly trigger a hardware cutoff.</td>
+<td>Rail-to-rail input-to-output</td>
+<td>Can be easily damaged</td>
 </tr>
 </tbody>
 </table>
