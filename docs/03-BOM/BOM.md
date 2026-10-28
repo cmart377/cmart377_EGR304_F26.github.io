@@ -6,11 +6,11 @@ tags:
 ---
 
 ## Overview
-written context
+My BOM includes all the main components needed for my heart rate monitor PCB, including the 9V power supply, barrel jack, fuse, and L7805 voltage regulator to provide a stable 5V output. It also includes the PIC18F57Q43 Curiosity Nano board, an MCP6004 op-amp, a thermistor, resistors, capacitors, LEDs, and a pushbutton for the sensing and indicator circuits. Overall, these components provide the power, signal processing, and temperature indication needed for my design.
 
-## Bill of Materials Example (as Table)
+## Bill of Materials Table
 
-*Table ##: An example of one approach to adding your BOM table to this section.*
+*Table #1*
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
@@ -31,12 +31,8 @@ Resistor, 1 kΩ, ±5%, ¼ W, carbon film, axial through-hole | 1 | Included in k
 9V 9 W AC/DC External Wall Mount (Class II) Adapter Fixed Blade Input | 1 | $11.41 | $11.41 | Pololu | 1470 | [DigiKey](https://www.digikey.com/en/products/detail/pololu/1470/19200211) |  [datasheet link](https://www.pololu.com/product-info-merged/1470) | N/a
 FUSE GLASS 500MA 250VAC 5X20MM | 1 | $2.57 | $2.57 | Eaton - Electronics Division | BK/GDC-500MA | [DigiKey](https://www.digikey.com/en/products/detail/eaton-electronics-division/BK-GDC-500MA/264793?utm_source) |  [datasheet link](https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-gdc-time-delay-glass-tube-fuses-data-sheet.pdf) | F1
 
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
-
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
-
-## Bill of Materials Example (as Image)
+## Bill of Materials Excel Image
 ![](BOM-Screenshot.png){style width: "2000"}
-**Figure 2:** Example Bill of Materials as a screenshot.
+**Figure 2:** Excel Image
 
-As you can see, the text can be difficult to read without opening the image.
+
