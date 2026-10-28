@@ -106,37 +106,24 @@ title: Component Selection
     | Already in Possession| Its 1 MHz gain bandwidth makes it unsuitable for some high-speed applications. |
     | Rail-to-rail input-to-output | Can be easily damaged |
 
-1. Analog Devices DS18B20 Temperature Sensor
+1. Texas Instruments LM324N Op amp
 
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230702.png?raw=true)
+    ![](LM324N.png)
 
-    * $2.83/each
-    * [Link to product](https://www.analog.com/en/products/DS18B20.html?utm_source)
-
-    | Pros                                                     | Cons                |
-    | ---------------------------------------------------------| ------------------- |
-    | Digital 1-Wire interface uses only one data pin.| Requires firmware to read and interpret the digital data. |
-    | Typical accuracy is ±0.5°C from −10°C to +85°C. | Uses a digital interface rather than a direct analog ADC input. |
-    | Supports programmable resolution and configurable temperature alarms.| A separate power-disconnection mechanism is still needed for an independent failsafe. |
-
-1. TMP102 Temperature Sensor
-
-    ![](https://github.com/cmart377/cmart377_EGR304_F26.github.io/blob/main/docs/02-Component-Selection/Screenshot%202026-10-16%20230715.png?raw=true)
-
-    * $5.95/each
-    * [Link to product](https://cdn.robotshop.com/media/s/spa/rb-spa-882/pdf/digital-temperature-sensor-tmp102-datasheet.pdf)
+    * $0.58/each
+    * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM324N/277627)
 
     | Pros                                                     | Cons                |
     | ---------------------------------------------------------| ------------------- |
-    | Supplies 9 V DC and is intended for continuous equipment power. | More expensive than the other candidates. |
-    | Lower input voltage than 12 V reduces the regulator's voltage drop and heat. | Its center-negative connector may not match your board. |
-    | Listed output current is 1.7 A. | A linear regulator will still dissipate heat, and actual current demand must be calculated. |
+    | Works with 5V supply | Output does not reach the positive supply rail. |
+    | Easy to socket and replace | 	Higher supply current than the MCP6004. |
+    | Four amplifier sections in one chip | Not a dedicated comparator; switching behavior needs testing. |
    
-**Choice:** Option 1: MCP9700 Temperature Sensor 
+**Choice:** Option 1:  Microchip Technology MCP6004-I/P Op Amp
 
-**Rationale:** The MCP9700 was selected because its analog output can be read directly by the PIC's ADC. This simplifies temperature monitoring and reduces interface complexity. It operates within a voltage range suitable for many low-voltage circuits. An additional threshold circuit is needed to trigger an automatic thermal shutdown.
+**Rationale:**  Microchip Technology MCP6004-I/P Op Amp will be chosen due to the component already being in my possession. MCP6004 also attaches well to the PCB's 5V rail, and I already know the op-amp works. 
 
-**Power Switching Components**
+**Power Jack**
 
 1. Texas Instruments TPS22919 Power Switch
 
