@@ -13,4 +13,4 @@ This schematic is designed to support team 204's Heart Rate Monitor. Its purpose
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](SubsystemSchematicDesign.pdf), and the Zip folder of the project [*here*](SubsystemSchematicDesign.zip).
+The schematic as a PDF download is available [*here*](SCH.pdf), and the Zip folder of the project [*here*](SubsystemSchematicDesign.zip).
