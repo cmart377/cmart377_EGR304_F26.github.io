@@ -32,7 +32,7 @@ Resistor, 1 kΩ, ±5%, ¼ W, carbon film, axial through-hole | 1 | Included in k
 FUSE GLASS 500MA 250VAC 5X20MM | 1 | $2.57 | $2.57 | Eaton - Electronics Division | BK/GDC-500MA | [DigiKey](https://www.digikey.com/en/products/detail/eaton-electronics-division/BK-GDC-500MA/264793?utm_source) |  [datasheet link](https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-gdc-time-delay-glass-tube-fuses-data-sheet.pdf) | F1
 
 ## Bill of Materials Excel Image
-![](ExcelBOM.png)
+![](BOMBOM.png)
 **Figure 2:** Excel Image
 
 
