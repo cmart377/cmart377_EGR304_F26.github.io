@@ -7,4 +7,4 @@ tags:
 
 ## Block Diagram 
 
-![Example of Indivial Block diagram ](BlockDiagramFinal.png)
+![Example of Indivial Block diagram ](IndDiagram.png)
