@@ -13,5 +13,5 @@ This PCB is designed to support team 204's Heart Rate Monitor. Its purpose is to
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](SCH.pdf), and the Zip folder of the project [*here*](SCH.zip).
+The schematic as a PDF download is available [*here*](SCH.pdf), and the Zip folder of the project [*here*](SCH.zip), and the Zip folder of the gerber files [*here*](SCH.zip).
 
