@@ -7,11 +7,11 @@ title: PCB
 This PCB is designed to support team 204's Heart Rate Monitor. Its purpose is to receive and compile information, then send it to two other PCBs. The Board shall consist of three different circuits. The first circuit supplies power, with a blue LED indicating whether it is on. The second circuit involves the microcontroller, and it will receive an analog signal from one board and send it to the other two boards. Finally, the third circuit measures the board's temperature and sends a message to the board that repeats "HOT" if it's too hot. 
 
 
-![schematic](PCB1.png){style width:"210" height:"297;"}
+![schematic](PCB.png){style width:"210" height:"297;"}
 **Figure 1:** 
 
 
 ## Resouces
 
-Zip folder of the project [*here*](Everything.zip), and the Zip folder of the Gerber files [*here*](Gerber.zip).
+Zip folder of the project [*here*](All.zip), and the Zip folder of the Gerber files [*here*](Gerber.zip).
 
